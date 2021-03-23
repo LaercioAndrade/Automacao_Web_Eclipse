@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.it.Quando;
-import cucumber.api.java.pt.Ent√£o;
+import cucumber.api.java.pt.Ent„o;
 
 public class loginSteps {
 	
@@ -14,7 +14,7 @@ public class loginSteps {
 	
 	@Dado("^que acesso o site$")
 	public void queAcessoOSite() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "/Users/macmini/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver(); 
 	    driver.get("https://www.saucedemo.com"); 
 	}
@@ -29,12 +29,12 @@ public class loginSteps {
 	   
 	}
 
-	@Quando("^clico no bot√£o login$")
-	public void clicoNoBot√£oLogin() throws Throwable {
+	@Quando("^clico no bot„o login$")
+	public void clicoNoBot„oLogin() throws Throwable {
 	    
 	}
 
-	@Ent√£o("^valido se o login foi realizado com sucesso$")
+	@Ent„o("^valido se o login foi realizado com sucesso$")
 	public void validoSeOLoginFoiRealizadoComSucesso() throws Throwable {
 	    
 	}
